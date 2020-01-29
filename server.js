@@ -23,15 +23,15 @@ app.get("/", function (req, res) {
 });
 app.get("/dating", function (req, res) {
     // res.send("Welcome to home Page!")
-    res.sendFile(path.join(__dirname, "/dating.html"));
+    res.sendFile(path.join(__dirname, "/public/dating.html"));
 });
 app.get("/signin", function (req, res) {
     // res.send("Welcome to home Page!")
-    res.sendFile(path.join(__dirname, "/signin.html"));
+    res.sendFile(path.join(__dirname, "/public/signin.html"));
 });
 app.get("/createaccount", function (req, res) {
     // res.send("Welcome to home Page!")
-    res.sendFile(path.join(__dirname, "/createaccount.html"));
+    res.sendFile(path.join(__dirname, "/public/createaccount.html"));
 
 });
 
